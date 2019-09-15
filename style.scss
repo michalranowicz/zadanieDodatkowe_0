@@ -2,6 +2,7 @@
 
 $font-blue: rgb(0, 199, 232);
 $color-footer-header: rgb(49, 50, 52);
+
 * {
   box-sizing: border-box;
 }
@@ -26,79 +27,77 @@ header {
   margin: 0;
 }
 
-.col-1 {
-  width: 8.33%;
-}
-.col-2 {
-  width: 16.66%;
-}
-.col-3 {
-  width: 25%;
-}
-.col-4 {
-  width: 33.33%;
-}
-.col-5 {
-  width: 41.66%;
-}
-.col-6 {
-  width: 50%;
-}
-.col-7 {
-  width: 58.33%;
-}
-.col-8 {
-  width: 66.66%;
-}
-.col-9 {
-  width: 75%;
-}
-.col-10 {
-  width: 83.33%;
-}
-.col-11 {
-  width: 91.66%;
-}
-.col-12 {
-  width: 100%;
-}
+.col-l-1 {
+  width: 8.33%; }
 
-.col-offset-0 {
-  margin-left: 0;
-}
-.col-offset-1 {
-  margin-left: 8.33%;
-}
-.col-offset-2 {
-  margin-left: 16.66%;
-}
-.col-offset-3 {
-  margin-left: 25%;
-}
-.col-offset-4 {
-  margin-left: 33.33%;
-}
-.col-offset-5 {
-  margin-left: 41.66%;
-}
-.col-offset-6 {
-  margin-left: 50%;
-}
-.col-offset-7 {
-  margin-left: 58.33%;
-}
-.col-offset-8 {
-  margin-left: 66.66%;
-}
-.col-offset-9 {
-  margin-left: 75%;
-}
-.col-offset-10 {
-  margin-left: 83.33%;
-}
-.col-offset-11 {
-  margin-left: 91.66%;
-}
+.col-l-2 {
+  width: 16.66%; }
+
+.col-l-3 {
+  width: 25%; }
+
+.col-l-4 {
+  width: 33.33%; }
+
+.col-l-5 {
+  width: 41.66%; }
+
+.col-l-6 {
+  width: 50%; }
+
+.col-l-7 {
+  width: 58.33%; }
+
+.col-l-8 {
+  width: 66.66%; }
+
+.col-l-9 {
+  width: 75%; }
+
+.col-l-10 {
+  width: 83.33%; }
+
+.col-l-11 {
+  width: 91.66%; }
+
+.col-l-12 {
+  width: 100%; }
+
+.col-l-offset-0 {
+  margin-left: 0; }
+
+.col-l-offset-1 {
+  margin-left: 8.33%; }
+
+.col-l-offset-2 {
+  margin-left: 16.66%; }
+
+.col-l-offset-3 {
+  margin-left: 25%; }
+
+.col-l-offset-4 {
+  margin-left: 33.33%; }
+
+.col-l-offset-5 {
+  margin-left: 41.66%; }
+
+.col-l-offset-6 {
+  margin-left: 50%; }
+
+.col-l-offset-7 {
+  margin-left: 58.33%; }
+
+.col-l-offset-8 {
+  margin-left: 66.66%; }
+
+.col-l-offset-9 {
+  margin-left: 75%; }
+
+.col-l-offset-10 {
+  margin-left: 83.33%; }
+
+.col-l-offset-11 {
+  margin-left: 91.66%; }
 
 [class*="col-"] {
   float: left;
@@ -129,7 +128,7 @@ nav {
 
 .navigation-list {
   display: inline-block;
-  :hover {
+  &:hover {
     background: #5d5e60;
   }
 }
@@ -165,10 +164,6 @@ nav {
     margin: 0 30px;
   }
 }
-
-/*.hero-slogan h1 {
-	margin: 0 30px;	
-}*/
 
 .benefits {
   margin-bottom: 50px;
@@ -438,6 +433,7 @@ nav {
   .employees-photos {
     padding: 5%;
   }
+
   .footer {
     padding: 0 3%;
   }
